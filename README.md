@@ -28,7 +28,7 @@ This library is a hobby project aimed at understanding the basics of Natural Lan
 
     print(scores["doc1"]["hello"])
 
-    # It's also possible to use different weighting schemes, for example:
+    # It's also possible to use different weighting schemes
     idf_smooth = corpus.get_inverse_document_frequency(IdfSmoothScheme)
     tf = doc1.get_term_frequency(TfLogNormScheme)
 ```
