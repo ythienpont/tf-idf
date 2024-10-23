@@ -42,7 +42,7 @@ If I feel like working on it some more, it will probably be on:
 - **Data Export**: Add functionality to export computed scores for further analysis.
 
 ## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.”
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing 
 Contributions are welcome! Feel free to open issues or submit pull requests.
