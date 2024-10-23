@@ -16,9 +16,22 @@ This library is a hobby project aimed at understanding the basics of Natural Lan
 - **Modular Design**: Easily integrate with text processing libraries.
 - **Customization**: Supports various weighting schemes for TF and IDF.
   
-## 🚀 Installation
-
 ## 🛠️ Usage
+```python
+    doc1 = Document(["hello", "world", "hello"], "doc1")
+    doc2 = Document(["hello", "everyone"], "doc2")
+
+    corpus = Corpus([doc1, doc2])
+
+    tfidf = TfIdf(corpus)
+    scores = tfidf.calculate_scores()
+
+    print(scores["doc1"]["hello"])
+
+    # It's also possible to use different weighting schemes, for example:
+    idf_smooth = corpus.get_inverse_document_frequency(IdfSmoothScheme)
+    tf = doc1.get_term_frequency(TfLogNormScheme)
+```
 
 ## 🔮 Future Plans
 
