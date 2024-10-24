@@ -30,7 +30,7 @@ This library is a hobby project aimed at understanding the basics of Natural Lan
 
     # It's also possible to use different weighting schemes
     idf_smooth = corpus.get_inverse_document_frequency(IdfSmoothScheme)
-    tf = doc1.get_term_frequency(TfLogNormScheme)
+    tf_lognorm = doc1.get_term_frequency(TfLogNormScheme)
 ```
 
 ## 🔮 Future Plans
